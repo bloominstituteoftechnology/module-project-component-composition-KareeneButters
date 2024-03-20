@@ -19,7 +19,7 @@ function App() {
         console.log(err.message)
       })
     }
-    //fetchPhoto()
+    // fetchPhoto()
     setApod()
   }, [])
   if(!apod) return 'Fetching Photo of the Day...'
